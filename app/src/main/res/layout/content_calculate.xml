@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Number"
+        android:fontFamily="@font/alata"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/inputNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alata"
+        android:textSize="14sp"
+        android:hint="Input Number"
+        android:inputType="number"
+        android:textColor="@color/curve_dream"/>
+    <android.widget.Button
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textSize="14sp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="Twice"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:text="Result: 0"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

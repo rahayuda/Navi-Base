@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Your Feedback"
+        android:fontFamily="@font/alata"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:hint="Type your feedback here..."
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:lines="4" />
+
+    <android.widget.Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textSize="14sp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="Show Feedback"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtFeedbackResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Feedback will appear here" />
+</LinearLayout>
